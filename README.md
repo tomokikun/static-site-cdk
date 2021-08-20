@@ -1,6 +1,6 @@
 # static-site-cdk
 静的サイトホスティングのためのインフラを構築するCDKのサンプルです。
-S3 + CloudFront (+ Route53) の鉄板構成を想定しています。
+S3 + CloudFront (+ Route53) の構成を想定しています。
 
 Route53を使う場合は、Route53 Hosted Zoneの設定が必要です。　
 
