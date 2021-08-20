@@ -1,8 +1,8 @@
 # static-site-cdk
-静的サイトホスティングのためのインフラを構築するCDKのサンプルです。
-S3 + CloudFront (+ Route53) の構成を想定しています。
+静的サイトホスティングのためのインフラ(S3 + CloudFront)を構築するCDKのサンプルです。
+`cdk deploy`を実行することで、インフラの構築から静的ファイルをS3 Bucketにdeployするところまで自動実行します。
 
-Route53を使う場合は、Route53 Hosted Zoneの設定が必要です。　
+独自ドメインを使いたい場合、Route53で別途DNSの設定を行う必要があります。
 
 ## Useful commands
 
