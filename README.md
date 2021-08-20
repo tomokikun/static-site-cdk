@@ -1,8 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# static-site-cdk
+静的サイトホスティングのためのインフラを構築するCDKのサンプルです。
+S3 + CloudFront (+ Route53) の鉄板構成を想定しています。
 
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Route53を使う場合は、Route53 Hosted Zoneの設定が必要です。　
 
 ## Useful commands
 
